@@ -43,12 +43,12 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-20 bg-gradient-to-t from-lime to-mint">
         <div className="sticky absolute z-10 top-8 flex flex-row w-5/12">
             <div className="flex items-center justify-center mt-2 ml-2 w-10 h-10 absolute left-0 transition ease-in-out bg-gray-100 hover:bg-gray-200 duration-300 rounded-full">
-                <Image width={30} height={30} src="/apple_share_icon.png"/>
+                <Image width={30} height={30} src="/apple_share_icon.png" alt="apple_share_icon" />
             </div>
 
             <div className= "flex flex-row bg-white absolute right-0 w-[110px] h-10 mt-2 mr-2 rounded-s-full rounded-e-full transition ease-in-out bg-gray-100 hover:bg-gray-200 duration-300 ">
                 <div className="w-10 h-10 absolute left-0">
-                    <Image className ="ml-3.5 mt-2.5" width={20} height={15} src="/subscribe_bell_icon.png"/>
+                    <Image className ="ml-3.5 mt-2.5" width={20} height={15} src="/subscribe_bell_icon.png" alt="subscribe_bell_icon_white"/>
                 </div>
                 <div className="ml-10 mt-2">Subscribe</div>
             </div>
@@ -61,14 +61,14 @@ export default function Home() {
                  transition: "opacity 0.2s ease-in-out",
              }}>
             <div className="flex items-center justify-center w-10 h-10 mt-2 ml-2 absolute left-0 transition ease-in-out bg-black hover:bg-gray-500 duration-300 rounded-full">
-                <Image width={30} height={30} src="/apple_share_icon_white.png"/>
+                <Image width={30} height={30} src="/apple_share_icon_white.png" alt="apple_share_icon"/>
             </div>
 
             <div className="w-10 h-10 mt-2 transition ease-in-out bg-[url('../../public/wine_salon_logo.png')] bg-cover rounded-full" />
 
             <div className= "flex flex-row bg-white absolute right-0 w-[110px] h-10 mt-2 mr-2 rounded-s-full rounded-e-full transition ease-in-out bg-black hover:bg-gray-500 duration-300 ">
                 <div className="w-10 h-10 absolute left-0">
-                    <Image className ="ml-3.5 mt-2.5" width={20} height={15} src="/subscribe_bell_icon_white.png"/>
+                    <Image className ="ml-3.5 mt-2.5" width={20} height={15} src="/subscribe_bell_icon_white.png" alt="subscribe_bell_icon_white"/>
                 </div>
                 <div className="ml-10 mt-2 text-white">Subscribe</div>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
                                              transition: "opacity 0.2s ease-in-out",
                                          }}
                                     >
-                                        <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                        <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                     </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export default function Home() {
                                      }}
                                 >
 
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ export default function Home() {
                                      }}
                                 >
 
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ export default function Home() {
                                      }}
                                 >
 
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@ export default function Home() {
                                      }}
                                 >
 
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@ export default function Home() {
                                      }}
                                 >
 
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ export default function Home() {
                                      }}
                                 >
 
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +273,7 @@ export default function Home() {
                                          transition: "opacity 0.2s ease-in-out",
                                      }}
                                 >
-                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png"/>
+                                    <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
                         </div>
