@@ -16,6 +16,7 @@ module.exports = {
         'mint' : '#6AF7C8',
         'lime' : '#94FFA7',
         'thick-green' :'#0d7d65',
+        'slight-white' : '#EBEEF1',
       },
       fontFamily :{
         'sans': ['Oswald', 'sans-serif'],

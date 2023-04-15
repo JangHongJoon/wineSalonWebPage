@@ -32,7 +32,6 @@ export default function Home() {
             },200)
 
         }
-
     }
 
     useEffect(() => {
@@ -41,7 +40,11 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-between p-20 bg-gradient-to-t from-lime to-mint">
-        <div className="sticky absolute z-20 top-8 flex flex-row w-5/12">
+        <div className="sticky absolute z-20 top-8 flex flex-row w-5/12"
+             style={{
+                 opacity: visibleForSticky==='invisible' ? 1 : 0,
+                 transition: "opacity 0.1s ease-in",
+             }}>
             <div className="flex items-center justify-center mt-2 ml-2 w-10 h-10 absolute left-0 transition ease-in-out bg-gray-100 hover:bg-gray-200 duration-300 rounded-full">
                 <Image width={30} height={30} src="/apple_share_icon.png" alt="apple_share_icon" />
             </div>
@@ -55,22 +58,19 @@ export default function Home() {
 
         </div>
 
-        <div className={`sticky absolute z-20 flex flex-row justify-center top-8 w-5/12 h-14 rounded-s-full rounded-e-full bg-white border-amber-50 bg-opacity-80 ${visibleForSticky}`}
+        <div className={`sticky absolute z-20 flex flex-row justify-center top-8 w-5/12 h-14 rounded-s-full rounded-e-full bg-white bg-opacity-50 backdrop-blur-sm border-[1px] border-slight-white ${visibleForSticky}`}
              style={{
                  opacity: visibleForSticky==='visible' ? 1 : 0,
-                 transition: "opacity 0.2s ease-in-out",
+                 transition: "opacity 0.2s ease-in",
              }}>
-            <div className="flex items-center justify-center w-10 h-10 mt-2 ml-2 absolute left-0 transition ease-in-out bg-black hover:bg-gray-500 duration-300 rounded-full">
+            <div className="flex items-center justify-center w-10 h-10 mt-2 absolute left-2 transition ease-in-out bg-black hover:bg-gray-500 duration-300 rounded-full">
                 <Image width={30} height={30} src="/apple_share_icon_white.png" alt="apple_share_icon"/>
             </div>
 
             <div className="w-10 h-10 mt-2 transition ease-in-out bg-[url('../../public/wine_salon_logo.png')] bg-cover rounded-full" />
 
-            <div className= "flex flex-row bg-black absolute right-0 w-[110px] h-10 mt-2 mr-2 rounded-s-full rounded-e-full transition ease-in-out hover:bg-gray-500 duration-300 ">
-                <div className="w-10 h-10 absolute left-0">
-                    <Image className ="ml-3.5 mt-2.5" width={20} height={15} src="/subscribe_bell_icon_white.png" alt="subscribe_bell_icon_white"/>
-                </div>
-                <div className="ml-10 mt-2 text-white">Subscribe</div>
+            <div className="flex items-center justify-center w-10 h-10 mt-2 absolute right-2 transition ease-in-out bg-black hover:bg-gray-500 duration-300 rounded-full">
+                <Image width={20} height={20} src="/subscribe_bell_icon_white.png" alt="subscribe_bell_icon_white"/>
             </div>
 
         </div>
