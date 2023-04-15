@@ -39,7 +39,7 @@ export default function Home() {
     },[])
 
   return (
-    <main className="flex flex-col max-w-full items-center justify-between p-20 bg-gradient-to-t from-lime to-mint">
+    <main className="flex flex-col items-center justify-between p-3 bg-gradient-to-t from-lime to-mint">
         <div className="sticky absolute z-20 top-8 flex flex-row w-full"
              style={{
                  opacity: visibleForSticky==='invisible' ? 1 : 0,
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
 
 
-        <div className = "-mt-10 flex flex-col items-center justify-items-center w-full">
+        <div className = "mt-5 flex flex-col items-center justify-items-center w-full">
 
             <div className="w-24 h-24 rounded-full bg-cover bg-[url('../../public/wine_salon_logo.png')]" />
             <div className="font-bold font-body text-xl mt-5">
