@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
         <link rel="icon" href="/favicon.ico" />
+        <title>Wine Salon</title>
       <body>
         <Main />
         <NextScript />
