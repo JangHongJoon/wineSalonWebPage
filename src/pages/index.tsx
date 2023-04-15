@@ -39,8 +39,8 @@ export default function Home() {
     },[])
 
   return (
-    <main className="flex flex-col items-center justify-between p-20 bg-gradient-to-t from-lime to-mint">
-        <div className="sticky absolute z-20 top-8 flex flex-row w-5/12"
+    <main className="flex flex-col max-w-full items-center justify-between p-20 bg-gradient-to-t from-lime to-mint">
+        <div className="sticky absolute z-20 top-8 flex flex-row w-full"
              style={{
                  opacity: visibleForSticky==='invisible' ? 1 : 0,
                  transition: "opacity 0.1s ease-in",
@@ -58,7 +58,7 @@ export default function Home() {
 
         </div>
 
-        <div className={`sticky absolute z-20 flex flex-row justify-center top-8 w-5/12 h-14 rounded-s-full rounded-e-full bg-white bg-opacity-50 backdrop-blur-sm border-[1px] border-slight-white ${visibleForSticky}`}
+        <div className={`sticky absolute z-20 flex flex-row justify-center top-8 w-full h-14 rounded-s-full rounded-e-full bg-white bg-opacity-50 backdrop-blur-sm border-[1px] border-slight-white ${visibleForSticky}`}
              style={{
                  opacity: visibleForSticky==='visible' ? 1 : 0,
                  transition: "opacity 0.2s ease-in",
@@ -86,9 +86,9 @@ export default function Home() {
                 와인클래스 / 위스키시음 / 독서모임 / 하트시그널 / 어바웃타임
             </div>
 
-            <div className="mt-6 flex flex-col items-center w-2/3">
+            <div className="mt-6 flex flex-col items-center w-full">
                 <div className="font-bold">🥂 매주 열리는 <strong>2030</strong> 소셜모임 신청! 🥂</div>
-                <div className = "mt-3 w-2/3">
+                <div className = "mt-3 w-full">
                     <div className="relative">
                         <div
                             onClick={() => window.open("https://m.blog.naver.com/backers0/221856954360", "_blank")}
@@ -160,9 +160,9 @@ export default function Home() {
             </div>
 
 
-            <div className="mt-8 flex flex-col items-center w-2/3">
+            <div className="mt-8 flex flex-col items-center w-full">
                 <div className="font-bold">💕<strong>Wine Salon</strong> 소개 / 운영진 소개 💕</div>
-                <div className = "mt-3 w-2/3">
+                <div className = "mt-3 w-full">
                     <div className="relative">
                         <div
                             onClick={() => window.open("https://blog.naver.com/backers0/222489631416", "_blank")}
@@ -212,9 +212,9 @@ export default function Home() {
 
             </div>
 
-            <div className="mt-8 flex flex-col items-center w-2/3">
+            <div className="mt-8 flex flex-col items-center w-full">
                 <div className="font-bold">👇👇 모임 후기 / 사진 / 영상은 👇👇</div>
-                <div className = "mt-3 w-2/3">
+                <div className = "mt-3 w-full">
                     <div className="relative">
                         <div
                             onClick={() => window.open("https://blog.naver.com/backers0", "_blank")}
