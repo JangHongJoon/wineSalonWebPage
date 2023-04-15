@@ -124,7 +124,6 @@ export default function Home() {
                                          transition: "opacity 0.2s ease-in-out",
                                      }}
                                 >
-
                                     <Image className="transition ease-in-out hover:bg-gray-200 duration-300 rounded-full" width={100} height={100} src="/apple_share_icon.png" alt="apple_share_icon"/>
                                 </div>
                             </div>
