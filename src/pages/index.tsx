@@ -67,7 +67,7 @@ export default function Home() {
                 <Image width={30} height={30} src="/apple_share_icon_white.png" alt="apple_share_icon"/>
             </div>
 
-            <div className="w-10 h-10 mt-2 transition ease-in-out bg-[url('../../public/wine_salon_logo.png')] bg-cover rounded-full" />
+            <div className="w-10 h-10 mt-2 transition ease-in-out bg-[url('https://d1fdloi71mui9q.cloudfront.net/k57NiMjCRzaJjbmswPMX_PYxL7KLT9amE9KmC')] bg-cover rounded-full" />
 
             <div className="flex items-center justify-center w-10 h-10 mt-2 absolute right-2 transition ease-in-out bg-black hover:bg-gray-500 duration-300 rounded-full">
                 <Image width={20} height={20} src="/subscribe_bell_icon_white.png" alt="subscribe_bell_icon_white"/>
@@ -78,7 +78,7 @@ export default function Home() {
 
         <div className = "mt-5 flex flex-col items-center justify-items-center w-full">
 
-            <div className="w-24 h-24 rounded-full bg-cover bg-[url('../../public/wine_salon_logo.png')]" />
+            <div className="w-24 h-24 rounded-full bg-cover bg-[url('https://d1fdloi71mui9q.cloudfront.net/k57NiMjCRzaJjbmswPMX_PYxL7KLT9amE9KmC')]" />
             <div className="font-bold font-body text-xl mt-5">
                 WINE SALON
             </div>
