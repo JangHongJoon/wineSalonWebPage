@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import Fade from './fade'
 
 import { Inter } from 'next/font/google'
 import {useEffect, useState} from 'react'
-import { CSSTransition } from 'react-transition-group'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
